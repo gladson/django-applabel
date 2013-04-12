@@ -63,4 +63,4 @@ class AppLabelRenamer(object):
         admin.site.app_index = self.rename_app_index(admin.site.app_index)
 
 def rename(app_name, app_label):
-    AppLabelRenamer(native_app_label=app_name, app_label=app_label).main()
+    AppLabelRenamer(native_app_label=app_name, app_label=u"%s"%app_label).main()

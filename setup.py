@@ -5,7 +5,7 @@ from setuptools import setup, find_packages
 
 setup(
     name = "django-applabel",
-    version = "1.0.0",
+    version = "1.0.1",
     url = 'http://ondrejsika.com/docs/django-applabel',
     download_url = 'https://github.com/sikaondrej/django-applabel',
     license = 'GNU LGPL v.3',
