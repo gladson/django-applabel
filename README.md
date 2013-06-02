@@ -18,7 +18,7 @@ add settings.py
 edit myapp/admin.py
 
     from applabel import rename
-    rename(myapp, "My Application")
+    rename("myapp", "My Application")
 
 Authors
 -------
